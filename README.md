@@ -1,4 +1,4 @@
-# 🌟 Fully Responsive Single price grid component \*\*
+# 🌟 Fully Responsive Single Price Grid Component \*\*
 
 <p align="center">
   <img src="design/desktop-design-single-price-grid-component.jpg" alt="Blog Preview Card" width="50%">
