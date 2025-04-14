@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #e6eff6;
+}
+
+main.join-community-card {
+  display: flex;
+  flex-direction: column;
+  width: 635px;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 8px 24px hsl(215, 55%, 83%);
+}
+
+.community-intro {
+  display: flex;
+  flex-direction: column;
+  height: 216px;
+  background-color: #fff;
+  padding: 42px 80px 48px 40px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  margin-bottom: 22px;
+  color: hsl(179, 62%, 43%);
+}
+
+p.community-guarantee {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #c3d75e;
+}
+
+p.community-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  color: hsl(218, 22%, 67%);
+}
+
+.community-offer {
+  display: flex;
+  width: 635px;
+  height: 259px;
+  background-color: #fff;
+}
+
+.subscription-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #2bb3b1;
+  padding: 38px 40px 39px 40px;
+}
+
+h2.subscription-label {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  margin-bottom: 21px;
+  color: #fff;
+}
+
+p.subscription-price {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  margin-bottom: 9px;
+
+  color: #ffffffcc;
+}
+
+p.subscription-price span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  padding-right: 12px;
+  color: #fff;
+}
+
+.subscription-note {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+button {
+  height: 48px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 0px 8px 24px #1e7c7b;
+  color: #fff;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+
+button:hover {
+  background-color: hsl(71, 62%, 45%);
+}
+
+button:active {
+  background-color: hsl(71, 62%, 37%);
+}
+
+button:focus-visible {
+  outline: 2px solid hsl(71, 100%, 40%);
+}
+
+button:focus {
+  outline: none;
+}
+
+.why-us {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #4abebd;
+  padding: 38px 40px 39px 40px;
+}
+
+h2.why-us-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  color: #ffffffcc; /*80% opacity*/
+}
+
+@media (max-width: 698px) {
+  body {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  main.join-community-card {
+    width: 100%;
+  }
+
+  .community-offer {
+    width: 100%;
+    height: auto;
+  }
+
+  .community-intro {
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    padding-top: 72px;
+    padding-bottom: 76px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  p.community-guarantee {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin-bottom: 14px;
+    color: #c3d75e;
+  }
+
+  p.community-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.035em;
+    color: hsl(218, 22%, 67%);
+  }
+
+  .community-offer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .community-intro {
+    padding: 26px 24px 31px 24px;
+  }
+
+  .subscription-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 21px 24px 24px 24px;
+  }
+
+  .why-us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 24px 22px 24px;
+  }
+
+  h2.why-us-heading {
+    margin-bottom: 15px;
+  }
+}
